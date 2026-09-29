@@ -12,19 +12,19 @@ const highlights = [
     photo: "https://images.unsplash.com/photo-1562376552-0d160a2f238d?w=400&q=80",
     alt: "Belgian waffle with maple syrup",
   },
-  {
+    {
     item: menuCategories[0].items[1],
-    photo: "https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?w=400&q=80",
+    photo: "https://images.unsplash.com/photo-1603701972178-96760b471be9?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     alt: "Nutella waffle",
   },
   {
     item: menuCategories[0].items[2],
-    photo: "https://images.unsplash.com/photo-1509365465985-25d11c17e812?w=400&q=80",
+    photo: "https://images.unsplash.com/photo-1713759980312-bb9fa81d1c7a?q=80&w=1885&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     alt: "Honey butter waffle",
   },
   {
     item: menuCategories[1].items[0],
-    photo: "https://images.unsplash.com/photo-1559715745-e1b33a271c8f?w=400&q=80",
+    photo: "https://images.unsplash.com/photo-1624353365286-3f8d62daad51?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     alt: "Chocolate overload waffle",
   },
 ];
@@ -32,7 +32,7 @@ const highlights = [
 function WaveTop() {
   return (
     <div className="relative -mt-1 w-full overflow-hidden leading-none">
-      <svg viewBox="0 0 1440 48" fill="none" xmlns="http://www.w3.org/2000/svg" className="block h-8 w-full sm:h-12">
+      <svg viewBox="0 0 1440 48" preserveAspectRatio="none" fill="none" xmlns="http://www.w3.org/2000/svg" className="block h-8 w-full sm:h-12">
         <path d="M0 48h1440V20c-120 12-240 20-360 20s-240-8-360-20-240-20-360-20-240 8-360 20v28z" fill="currentColor" />
       </svg>
     </div>
@@ -42,7 +42,7 @@ function WaveTop() {
 function WaveBottom() {
   return (
     <div className="relative -mt-1 w-full overflow-hidden leading-none">
-      <svg viewBox="0 0 1440 48" fill="none" xmlns="http://www.w3.org/2000/svg" className="block h-8 w-full sm:h-12">
+      <svg viewBox="0 0 1440 48" preserveAspectRatio="none" fill="none" xmlns="http://www.w3.org/2000/svg" className="block h-8 w-full sm:h-12">
         <path d="M0 0h1440v28c-120-12-240-20-360-20s-240 8-360 20-240 20-360 20-240-8-360-20V0z" fill="currentColor" />
       </svg>
     </div>
@@ -131,7 +131,7 @@ export default function Home() {
               </div>
               <div className="relative aspect-[4/3] overflow-hidden rounded-2xl border border-caramel/10 shadow-md lg:aspect-square">
                 <Image
-                  src="https://images.unsplash.com/photo-1556679343-c7306c1976bc?w=800&q=80"
+                  src="https://images.unsplash.com/photo-1647210391533-5fe30109e94a?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                   alt="Inside Wafflewala — food being prepared"
                   fill
                   sizes="(max-width: 1024px) 100vw, 50vw"
